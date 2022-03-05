@@ -25,12 +25,12 @@
     "web3": "^1.7.1"
   },
   "scripts": {
-    "build": "react-app-rewired build",
-    "eject": "react-app-rewired eject",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
     "fix": "prettier --write src",
     "lint": "prettier --check src",
-    "start": "react-app-rewired start",
-    "test": "react-app-rewired test",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
     "prepare": "husky install",
     "ganache": "ganache --wallet.seed myCustomSeed"
   },
@@ -53,22 +53,12 @@
     ]
   },
   "devDependencies": {
-    "assert": "^2.0.0",
     "autoprefixer": "^10.4.2",
-    "buffer": "^6.0.3",
-    "crypto-browserify": "^3.12.0",
-    "https-browserify": "^1.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",
-    "os-browserify": "^0.3.0",
     "postcss": "^8.4.5",
     "prettier": "2.5.1",
-    "process": "^0.11.10",
-    "react-app-rewired": "^2.2.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "tailwindcss": "^3.0.12",
-    "url": "^0.11.0"
+    "tailwindcss": "^3.0.12"
   },
   "lint-staged": {
     "src/*.{ts,tsx,js,jsx,css,md}": "prettier --write"
